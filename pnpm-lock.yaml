@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^1.14.1
-        version: 1.14.1(hono@4.7.7)
+        version: 1.14.1(hono@4.10.2)
       '@hono/zod-validator':
         specifier: ^0.5.0
-        version: 0.5.0(hono@4.7.7)(zod@3.24.3)
+        version: 0.5.0(hono@4.10.2)(zod@3.24.3)
       dotenv:
         specifier: ^16.5.0
         version: 16.5.0
@@ -21,8 +21,8 @@ importers:
         specifier: ^12.0.2
         version: 12.0.2
       hono:
-        specifier: ^4.7.7
-        version: 4.7.7
+        specifier: ^4.10.2
+        version: 4.10.2
       nodemailer:
         specifier: ^6.10.1
         version: 6.10.1
@@ -631,8 +631,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.7.7:
-    resolution: {integrity: sha512-2PCpQRbN87Crty8/L/7akZN3UyZIAopSoRxCwRbJgUuV1+MHNFHzYFxZTg4v/03cXUm+jce/qa2VSBZpKBm3Qw==}
+  hono@4.10.2:
+    resolution: {integrity: sha512-p6fyzl+mQo6uhESLxbF5WlBOAJMDh36PljwlKtP5V1v09NxlqGru3ShK+4wKhSuhuYf8qxMmrivHOa/M7q0sMg==}
     engines: {node: '>=16.9.0'}
 
   html-escaper@2.0.2:
@@ -1129,13 +1129,13 @@ snapshots:
   '@esbuild/win32-x64@0.25.3':
     optional: true
 
-  '@hono/node-server@1.14.1(hono@4.7.7)':
+  '@hono/node-server@1.14.1(hono@4.10.2)':
     dependencies:
-      hono: 4.7.7
+      hono: 4.10.2
 
-  '@hono/zod-validator@0.5.0(hono@4.7.7)(zod@3.24.3)':
+  '@hono/zod-validator@0.5.0(hono@4.10.2)(zod@3.24.3)':
     dependencies:
-      hono: 4.7.7
+      hono: 4.10.2
       zod: 3.24.3
 
   '@isaacs/cliui@8.0.2':
@@ -1525,7 +1525,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.7.7: {}
+  hono@4.10.2: {}
 
   html-escaper@2.0.2: {}
 
